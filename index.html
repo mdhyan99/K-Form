@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <form action="https://formspree.io/f/mgedrbkg">
+      <h1> Personal Date</h1>
+   <div>
+    <label>
+        First name: <br>
+        <input class="in1"  type="text" name="First name" placeholder="" required>
+    </label>
+   </div>
+   
+   <div>
+    <label>
+        Last name: <br>
+        <input class="in1"  type="text"  name="Last name" placeholder="" required>
+    </label>
+    </div>
+    <div>
+        <label>
+            Street: <br>
+            <input class="in1"  type="text"  name="Street" placeholder="" required>
+        </label>
+        </div>
+        <div>
+            <label>
+                Zipcode: <br>
+                <input class="in1" type="text"  name="Zipcode" placeholder="" required>
+            </label>
+            </div>
+            <div>
+                <label>
+                  City: <br>
+                    <input class="in1" type="text"  name="City" placeholder="" required>
+                </label>
+                </div>
+                <div>
+                    <label>
+                        Phone: <br>
+                        <input class="in1"  type="phone"  name="Phone" placeholder="" required>
+                    </label>
+                    </div>
+                    <div>
+                        <label>
+                            Email: <br> 
+                            <input class="in1" type="email"  name="email" placeholder="" required>
+                        </label>
+                        </div>
+                        <br>
+                    <div>
+                        Comments:
+                        <br>
+                        <textarea name="Comments" id="" cols="21" rows="10">Tell us more about important colors,etc</textarea>
+                    </div>
+                
+                     
+                </form>
+         
+<form action="">
+    <h2> Products</h2>
+    <div>
+        Web Design :
+        <br>
+        <input type="radio" name="web desing" value="Individual" checked>
+        <label for="">Individual</label>
+       
+        <input type="radio" name="web desing" value="Template">
+        <label for="">Template</label>
+      </div>
+      <div>
+          Web Development : <br>
+          <input type="checkbox" name="Web Development" value="HTML & CSS">
+          <label for="">HTML & CSS</label>
+         <br>
+          <input type="checkbox" name="Web Development" value="JavaScript">
+          <label for="">JavaScript</label> <br>
+          <input type="checkbox" name="Web Development" value="MongoDB">
+          <label for="">MongoDB</label>
+      </div>
+      <div> 
+          <label for="">
+              Project Start:
+              <br>
+              <input class="in1" type="date" name=" Project Start:" placeholder=" mm / dd / yyyy" required>
+          </label>
+      </div>
+
+      <label for="">
+        Project End:
+        <br>
+        <input class="in1" type="date" name=" Project End:" placeholder=" mm / dd / yyyy" required>
+    </label>
+</div>
+<div><label for="">Category: <br>
+<input list="Category" name="Category">
+      
+        <datalist id="Category">
+            <option value="Personal" >Personal</option>
+            <option value="Kontakt">Kontakt</option>
+        </datalist>
+    </label>
+</div>
+<hr>
+<div>
+<input class="order" type="submit" value="Order our servics">
+</div>
+</form>
+</body>
+</html>
